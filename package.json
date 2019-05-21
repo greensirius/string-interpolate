@@ -1,0 +1,19 @@
+{
+  "name": "string-interpolate",
+  "version": "1.0.0",
+  "description": "algorithm for interpolate string using JS",
+  "main": "main.js",
+  "repository": {
+    "url": "https://github.com/greensirius/string-interpolate.git",
+    "type": "git"
+  },
+  "author": "greensirius <dominggus.octovianus@kodefox.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc --noEmit -p .",
+    "start": "yarn compile && babel-node src/main"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  }
+}

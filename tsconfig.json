@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "noEmitOnError": true,
+    "target": "es2016"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["package.json", "coverage", "node_modules", "__mocks__"],
+  "compileOnSave": false
+}
